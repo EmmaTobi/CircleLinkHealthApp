@@ -230,5 +230,6 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
-
+    "total_patients_seed_count" => env("TOTAL_PATIENTS_SEED_COUNT", 50000),
+    "total_blood_pressure_readings_seed_count" => env("TOTAL_BLOOD_PRESSURE_READINGS_SEED_COUNT", 200),
 ];
